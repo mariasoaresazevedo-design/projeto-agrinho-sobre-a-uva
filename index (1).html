@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agrinho - Estrutura Base</title>
+
+  <!-- Fontes (opcional) -->
+   <link rel="preconnect" href="https://fonts.googleapis.com" /> 
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
+   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet" /> 
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- SECAO 1: TOPO (titulo + imagem) -->
+  <header class="topo">
+    <div class="conteiner topo-grade">
+      <div class="topo-esquerda">
+        <h1>Agrinho<br>2026</h1>
+        <p class="frase">
+           "Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente."
+        </p>
+      </div>
+      <div class="topo-direita">
+        <!-- Coloque sua imagem aqui -->
+        <img src="./assets/logo-agrinho.jpg" alt="Logo ou imagem principal">
+      </div>
+    </div>
+  </header>
+
+  <!-- SECAO 2: BANNER COM IMAGEM DE FUNDO -->
+  <section class="banner">
+    <div class="sobreposicao">
+      <div class="conteiner banner-conteudo">
+        <h2>Capital da uva niágara em Rosário</h2>
+        <p>Rosário do Ivaí (PR) é conhecida como a "Capital da Uva Niágara", destacando-se como a maior produtora dessa variedade no estado do Paraná. 
+          A cidade possui cerca de 160 hectares dedicados à fruta, movimentando a agricultura local com duas safras anuais. </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECAO 3: FAIXA DE TEXTO -->
+  <section class="faixa-texto">
+    <div class="conteiner">
+      <p>A produção de uvas é uma alternativa rentável para os agricultores familiares de Rosário do Ivaí no Norte do Paraná que
+         hoje é conhecida e vem se destacando como o maior produtor de uva Niágara no Paraná, colhendo nesta safra de verão aproximadamente 4 mil toneladas.
+        São cerca de 145 agricultores nesta atividade, que ocupa uma área plantada de 142 hectares em produção, o correspondente a 1 milhão de pés.
+         Outros 150 mil pés novos estão em fase de formação.</p>
+    </div>
+  </section>
+
+  <!-- SECAO 4: CARTOES COM IMAGENS -->
+  <section class="cartoes">
+    <!-- CARTAO 1 -->
+    <article class="cartao cartao-1">
+      <div class="bolha gatilho-video" data-id-video="graos" data-url-video=https://www.youtube.com/watch?v=m7rXMBIKD4o  >Força da uva niágara em Rosário do Ivaí</div>
+    </article>
+    <!-- CARTAO 2 -->
+    <article class="cartao cartao-2">
+      <div class="bolha gatilho-video" data-id-video="sustentavel" data-url-video=https://www.youtube.com/watch?v=kGY3KG3EdfE>Preparação desde da fruta até chegar na garrafa.</div>
+    </article>
+    <!-- CARTAO 3 -->
+    <article class="cartao cartao-3">
+      <div class="bolha gatilho-video" data-id-video="sustentavel" data-url-video=https://www.youtube.com/watch?v=9PNXUemFUEw>Exportaçaõ para outros paises do mundo</div>
+    </article>
+  </section>
+
+  <!-- SECAO 5: NOTICIAS -->
+  <section class="noticias">
+    <div class="noticias-esquerda">
+      <!-- Imagem grande da secao -->
+      <img src="./assets/unnamed.jpg" alt="Imagem da secao de noticias">
+      <h3>Uva: O Ouro Doce da Nossa Agricultura</h3>
+    </div>
+    <aside class="noticias-direita">
+      <!-- uva-passa é um alimento nutritivo e saudável quando consumido com moderação, e muitas das críticas a ela estão mais relacionadas 
+       ao paladar do que a evidências científicas sobre seus efeitos na saúde.
+       -->
+
+      <h4>
+        <button 
+        type="button" 
+        class="gatilho-noticia"
+        data-id-noticia="teste1"
+        data-titulo-noticia="Somente"
+        data-imagem-notica="./assets/Gemini_Generated_Image_yq9ai3yq9ai3yq9a.png"
+        data-url-noticia="https://g1.globo.com/saude/noticia/2025/12/25/uva-passa-e-saudavel-o-que-a-nutricao-realmente-diz-e-o-que-e-so-implicancia.ghtml"
+        >
+          Uva-passa é saudável? O que a nutrição realmente diz e o que é só implicância
+        </button>
+      </h4>
+      <p>A uva-passa é um alimento nutritivo e saudável quando consumido com moderação, e muitas das críticas a ela estão mais relacionadas
+         ao paladar do que a evidências científicas sobre seus efeitos na saúde..</p>
+
+
+      <!-- Noticia 2 -->
+       
+
+      <h4>
+        <button 
+        type="button" 
+        class="gatilho-noticia"
+        data-id-noticia="teste2"
+        data-titulo-noticia="Somente um teste 2"
+        data-imagem-notica="./assets/meio-ambiente.jpg"
+        data-url-noticia="https://www.em.com.br/emfoco/2025/09/06/esta-fruta-e-100-vezes-pior-para-a-saude-do-que-o-alcool/"
+        >
+          Esta fruta é 100 vezes pior para a saúde do que o álcool
+        </button>
+      </h4>
+      <p>O artigo diz que uvas têm muito açúcar natural (frutose) e que comer em excesso pode fazer mal à saúde, podendo contribuir para gordura no fígado,
+        ganho de peso e problemas metabólicos. A recomendação é consumir com moderação.
+         O título "100 vezes pior que o álcool" é chamativo, mas o texto basicamente alerta sobre os riscos do excesso de açúcar das uvas..</p>
+      <!-- Noticia 3 -->
+     
+
+      <h4>
+        <button 
+        type="button" 
+        class="gatilho-noticia"
+        data-id-noticia="conselho"
+        data-titulo-noticia="Somente um teste"
+        data-imagem-noticia="./assets/china-wine.webp"
+        data-url-noticia="https://br.atlasbig.com/paises-por-producao-de-uva"
+        >
+        Países por Produção de Uva
+        </button>
+      </h4>
+      <p>O cultivo da uva (viticultura) é uma das atividades agrícolas mais importantes e globalizadas do mundo,
+         movimentando biliões de dólares anualmente através do comércio de uvas de mesa, uvas passas, sumos e vinhos..</p>
+  
+    </aside>
+  </section>
+
+  <!-- SECAO 6: FEIRA + GALERIA -->
+  <section class="feira">
+    <div class="feira-esquerda">
+      <img src="./assets/img-117187e56e53cb56.png" alt="Imagem da feira">
+      <p>Informacao da feira ou evento.</p>
+    </div>
+    <div class="feira-direita">
+      <img src="./assets/images (1).jpeg" alt="Imagem 1">
+      <img src="./assets/uva.embrapasemiarido (1).jpg" alt="Imagem 2">
+      <img src="./assets/IMG_5802-2048x1365-2-1024x683.webp" alt="Imagem 3">
+      <img src="./assets/uva-Cabernet-Sauvignon_487793344.jpg" alt="Imagem 4">
+    </div>
+  </section>
+
+  <!-- SECAO FINAL: CHAMADA PARA ACAO (opcional) -->
+  <section class="chamada-final">
+    <div class="conteiner chamada-final-conteiner">
+      <h3>Chamada final do projeto</h3>
+      <button type="button" class="botao-chamada-final">Acessar</button>
+    </div>
+  </section>
+
+  <!-- MODAIS (opcional) -->
+  <!-- Modal de video -->
+     <div class="modal-video" id="modal-video" aria-hidden="true">
+    <div class="modal-video-conteudo" role="dialog" aria-modal="true" aria-label="Vídeo">
+      <button class="modal-video-fechar" id="fechar-modal-video" type="button" aria-label="Fechar vídeo">×</button>
+      <iframe
+        id="frame-video"
+        src=""
+        title="Vídeo do Paraná"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+      <div class="transcricao-video">
+        <h4>Transcrição do vídeo</h4>
+        <p id="texto-transcricao-video">Selecione um vídeo para ver a transcrição.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de noticias -->
+
+<div class="modal-noticia" id="modal-noticia" aria-hidden="true">
+    <div class="modal-noticia-conteudo" role="dialog" aria-modal="true" aria-label="Notícia">
+      <button class="modal-noticia-fechar" id="fechar-modal-noticia" type="button" aria-label="Fechar notícia">×</button>
+      <img id="imagem-modal-noticia" src="" alt="" />
+      <h4 id="titulo-modal-noticia"></h4>
+      <div class="acoes-noticia">
+        <button class="botao-ler-noticia" id="botao-ler-noticia" type="button">Ler notícia</button>
+        <button class="botao-link-noticia" id="botao-link-noticia" type="button">Ir para notícia</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de quiz -->
+ <div class="modal-quiz" id="modal-quiz" aria-hidden="true">
+    <div class="modal-quiz-conteudo" role="dialog" aria-modal="true" aria-label="Mini quiz">
+      <button class="modal-quiz-fechar" id="fechar-modal-quiz" type="button" aria-label="Fechar quiz">×</button>
+
+      <div class="quiz" id="mini-quiz">
+        <div class="quiz-conteiner">
+          <div class="quiz-introducao">
+            <h2>Mini Quiz do Agrinho</h2>
+            <p>
+              Teste seus conhecimentos sobre o agronegócio sustentável do Paraná. São 5 perguntas rápidas.
+            </p>
+          </div>
+
+          <form class="formulario-quiz" id="formulario-quiz">
+            <div class="progresso-quiz">
+              <span id="passo-quiz">1</span>/<span id="total-quiz">5</span>
+            </div>
+
+            <div class="etapas-quiz">
+              <div class="etapa-quiz ativo" data-step="1">
+                <h3 class="titulo-pergunta-quiz">1) Qual é o principal produto derivado da uva??</h3>
+                <div class="opcoes-quiz">
+                  <label class="opcao-quiz">
+                    <input type="radio" name="q1" value="a" /> Queijo
+                  </label>
+                  <label class="opcao-quiz" data-correta="true">
+                    <input type="radio" name="q1" value="b" /> Vinho
+                  </label>
+                  <label class="opcao-quiz">
+                    <input type="radio" name="q1" value="c" /> Manteiga
+                  </label>
+                </div>
+                <button class="botao-proximo-quiz" type="button" disabled>Próximo</button>
+              </div>
+
+              <div class="etapa-quiz" data-step="2">
+                <h3 class="titulo-pergunta-quiz">2) Segundo o conteúdo, o Paraná é referência global em:</h3>
+                <div class="opcoes-quiz">
+                  <label class="opcao-quiz" data-correta="true">
+                    <input type="radio" name="q2" value="a" /> Videira (parreira)
+                  </label>
+                  <label class="opcao-quiz">
+                    <input type="radio" name="q2" value="b" /> Folha
+                  </label>
+                  <label class="opcao-quiz"> 
+                    <input type="radio" name="q2" value="c" /> Raiz
+                  </label>
+                </div>
+                <button class="botao-proximo-quiz" type="button" disabled>Próximo</button>
+              </div>
+
+              <div class="etapa-quiz" data-step="3">
+                <h3 class="titulo-pergunta-quiz">3) Qual destes nutrientes é encontrado nas uvas?:</h3>
+                <div class="opcoes-quiz">
+                  <label class="opcao-quiz" data-correta="true">
+                    <input type="radio" name="q3" value="a" /> Vitamina C
+                  </label>
+                  <label class="opcao-quiz">
+                    <input type="radio" name="q3" value="b" /> Vitamina D
+                  </label>
+                  <label class="opcao-quiz">
+                    <input type="radio" name="q3" value="c" /> Vitamina K apenas
+                  </label>
+                </div>
+                <button class="botao-proximo-quiz" type="button" disabled>Próximo</button>
+              </div>
+
+              <div class="etapa-quiz" data-step="4">
+                <h3 class="titulo-pergunta-quiz">4) Qual é a cor mais comum das uvas?</h3>
+                <div class="opcoes-quiz">
+                  <label class="opcao-quiz">
+                    <input type="radio" name="q4" value="a" /> Verde, roxa e vermelha
+                  </label>
+                  <label class="opcao-quiz" data-correta="true">
+                    <input type="radio" name="q4" value="b" /> Rosa e marrom
+                  </label>
+                  <label class="opcao-quiz">
+                    <input type="radio" name="q4" value="c" /> Preta e amarela apenas
+                  </label>
+                </div>
+                <button class="botao-proximo-quiz" type="button" disabled>Próximo</button>
+              </div>
+
+              <div class="etapa-quiz" data-step="5">
+                <h3 class="titulo-pergunta-quiz">5) As uvas são classificadas como:</h3>
+                <div class="opcoes-quiz">
+                  <label class="opcao-quiz">
+                    <input type="radio" name="q5" value="a" /> Grãos
+                  </label>
+                  <label class="opcao-quiz" data-correta="true">
+                    <input type="radio" name="q5" value="b" /> Frutas
+                  </label>
+                  <label class="opcao-quiz">
+                    <input type="radio" name="q5" value="c" /> Legumes
+                  </label>
+                </div>
+                <button class="botao-proximo-quiz" type="button" disabled>Finalizar</button>
+              </div>
+            </div>
+
+            <div class="resultado-quiz" id="resultado-quiz" aria-live="polite"></div>
+            <div class="acoes-quiz oculto" id="acoes-quiz">
+              <button class="botao-reiniciar-quiz" type="button" id="botao-reiniciar-quiz">Reiniciar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- JS (opcional)d -->
+  <script src="script-video.js"></script>
+ <script src="script-noticias.js"></script> 
+ <script src="script-quiz.js"aaaaa></script> 
+</body>
+</html>
